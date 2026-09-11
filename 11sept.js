@@ -24,3 +24,32 @@ function add_two_numbers(l,b){
     console.log("the addition of l and b is ",x)
 }
 add_two_numbers(l,b);
+
+
+//Temporal DeadZone- tum clg(a) pehle likh doge aur declare baad me karoge 
+//hoisting-in the var,let,const
+
+
+//temporal dead zone me error nahi aaya access ho  gya he and access hone ke baad undefined aaya he that mean vo temporal deadzone upport karta he 
+
+//hoisting - jab bhi ham koi variable banate he to uska declaration wala part upar reh jata he and assign wala part niche reh jata he 
+
+//hoisting done in all three variable var,let,const
+
+
+//primitives : string,bool,null,char,bigint,
+//reference : array[],functions(),objects{}
+
+let v=[1,2,3,4];
+let r=v;
+console.log(r)
+
+
+let obje={
+    name:"manish",
+    age:21
+}
+let y=obje.age;
+const ya=obje.name;
+console.log(y);
+console.log(ya)
