@@ -53,3 +53,21 @@ let y=obje.age;
 const ya=obje.name;
 console.log(y);
 console.log(ya)
+
+
+//reference variable me esa hota he ki ham agar copy karne ki koshish karte he to copy nahi hota he uske 2 malik ban jate he ab kisi bhi malik se tum usko access karke chedchad kar skte ho
+
+//array ,objects,functions
+
+let naam="manishee"
+let maandusra = naam;
+maandusra="manisha";
+
+console.log(maandusra)
+console.log(naam)
+
+//dynamic typing ka mtlb hota he ye ki tum ek variable ko declare karke usko integer store karoge fir baad me tum reassign karoge string value se to ye possible he
+
+// quirks
+
+
