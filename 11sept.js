@@ -71,3 +71,13 @@ console.log(naam)
 // quirks
 
 
+//typecasting or type coercion
+
+"4"+1
+
+
+///truthy and falsy videos
+
+if(12){
+    console.log(true)
+}
